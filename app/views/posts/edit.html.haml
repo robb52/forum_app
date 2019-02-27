@@ -1,5 +1,7 @@
-%h1 Edit
+.card
 
-= render 'form'
+  %h1 Edit
 
-= link_to "Cancel", post_path
+  = render 'form'
+
+  = link_to "Cancel", post_path, class: "cancel_btn"

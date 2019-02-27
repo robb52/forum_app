@@ -87,9 +87,18 @@
     .date {
       margin-top: .35rem;
       font-size: 0.9rem;
-      color: #B2BAC2;
+      color: #7D817E;
     }
   }
+}
+
+.button {
+  color: #397CAC;
+  border: 1px solid #397CAC;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: .2em;
+  margin-right: 2%;
 }
 
 #post_content {
@@ -103,11 +112,106 @@
     margin-top: 0;
   }
   p {
-    color: #B2BAC2;
+    color: #7D817E;
     font-size: 0.9rem;
     line-height: 1.5;
   }
 }
+
+#comments {
+  .comment {
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    .content {
+      width: 75%;
+      float: left;
+    }
+    .buttons {
+      width: 25%;
+      float: left;
+      font-size: .8em;
+      text-align: right;
+      padding-top: 1.5em;
+    }
+    a {
+      color: #397CAC;
+      border: 1px solid #397CAC;
+      text-decoration: none;
+      border-radius: 2px;
+      padding: .2em;
+      margin-right: 2%;
+    }
+    .comment_content {
+      margin: 0;
+      padding: 0;
+      color: #7D817E;
+    }
+    .comment_author {
+      color: #397CAC;
+      margin-top: .5em;
+      font-size: 0.7em;
+      font-weight: 700;
+    }
+  }
+  input[type="submit"] {
+    background-color: #397CAC;
+    border: none;
+    color: white;
+    padding: .5em 1em;
+    border-radius: .2em;
+  }
+  textarea {
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid #d1d1d1;
+    border-radius: .2em;
+    margin: 1em 0;
+  }
+}
+
+.card {
+  display: inline-block;
+  input#post_title {
+    margin-bottom: 20px;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 200%;
+  }
+}
+
+.new_btn {
+  margin: 10px 0 30px 0;
+  line-height: 20px;
+  background-color: #397CAC;
+  padding: .5em 1em;
+  border-radius: 0.2em;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cancel_btn {
+  color: #397CAC;
+  border: 1px solid #397CAC;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: .3em;
+  background-color: white;
+}
+
+
+
+
 
 
 
